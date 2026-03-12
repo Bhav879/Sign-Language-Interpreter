@@ -8,7 +8,7 @@ Future: To detect and interpret the alphabet of sign language, maybe even a feat
 #Libraries used: 
 - OpenCV for webcam access
 - MediaPipe for landmark detection
-- TensorFlow with Keras to run a trained model that recognises chosen letters (Code obtained from Google's Teachable Machines)
+- TensorFlow with Keras to run a trained model that recognises chosen letters (Trained a model using Google's Teachable Machines)
 - NumPy to help process image data before comparing it with the model
 
 
