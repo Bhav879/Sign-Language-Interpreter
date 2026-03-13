@@ -22,3 +22,6 @@ MediaPipe displays 21 landmarks on each hand, such as on the wrists and through 
 - 'signlang_detectletters.py'  -  Final version with the main detection of the five chosen letters using trained model.
 - 'keras_model.h5' and 'labels.txt'  -  Trained model files
 - 'LetterDetectionTest.mp4' - Demo video of working letter detection
+
+
+#NOTE: The detection code requires TensorFlow which is currently not compatible with Python 3.14. It will however run, if you are using Python 3.11 or 3.12. The demo video shows a working model in action. The code with landmark detection works on any Python version.
